@@ -18,8 +18,8 @@ params:
   # repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
 
   #version = "1.0.0"
-  #logo = "images/logo.png"
-  favicon: ""
+  logo: "images/favicon.png"
+  favicon: "images/favicon.png"
 
   permalink: "#"
 
