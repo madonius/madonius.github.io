@@ -1,0 +1,104 @@
+baseURL = 'https://madoni.us'
+languageCode = 'en-us'
+DefaultContentLanguage = 'en'
+title = "madonius' Blog"
+theme = 'anatole'
+
+[params]
+profilePicture = "images/profile.jpg"
+
+summaryLength = 10
+enableEmoji = true
+enableRoboetsTXT = true
+
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+localizedDates = true
+
+reversePageTitle = true
+
+[math]
+enable = true
+use = "katex"
+
+[mermaid]
+enable=true
+
+[markup]
+  [markup.goldmark]
+	[markup.goldmark.renderer]
+	  unsafe=true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:contact ατ kampitakis.de"
+
+[[params.socialIcons]]
+icon = "fab fa-mastodon"
+title = "madonius on mastodon"
+url = "https://chaos.social/@madonius"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "madonius on Github"
+url = "https://github.com/madonius"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "madonius on Twitter"
+url = "https://twitter.com/madonius"
+
+[[params.socialIcons]]
+icon = "fas fa-message"
+title = "madonius on Matrix"
+url = "https://matrix.to/#/@madonius:entropia.de"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 1
+  url = "/"
+
+  [[ menu.main ]]
+  name = "About"
+  identifier = "about"
+  weight = 2
+  url = "/about"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 50
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "Crypto"
+  identifier = "crypto"
+  url = "/crypto"
+  weight = 100
+
+	[[menu.main]]
+	name = "PGP"
+	parent = "crypto"
+	url = "/crypto/pgp/"
+	weight = 10
+
+	[[menu.main]]
+	name = "Threema"
+	parent = "crypto"
+	url = "/crypto/threema/"
+	weight = 20
+
+  [[menu.main]]
+  name = "Imprint"
+  url = "/impressum/"
+  weight = 1000
