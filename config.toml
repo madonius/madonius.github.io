@@ -36,13 +36,13 @@ enable=true
   threshold = 80
   toLower = true
 
-[[related.indices]]
-  name = 'keywords'
-  weight = 100
+  [[related.indices]]
+    name = 'keywords'
+    weight = 100
 
-[[related.indices]]
-  name = 'tags'
-  weight = 80
+  [[related.indices]]
+    name = 'tags'
+    weight = 80
 
 [taxonomies]
   category = "categories"
@@ -74,44 +74,45 @@ icon = "fas fa-message"
 title = "madonius on Matrix"
 url = "https://matrix.to/#/@madonius:entropia.de"
 
-[menu]
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 1
-  url = "/"
+menu = [ 'main', 'footer' ]
 
-  [[ menu.main ]]
-  name = "About"
-  identifier = "about"
-  weight = 2
-  url = "/about"
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 1
+url = "/"
 
-  [[menu.main]]
-  name = "Posts"
-  weight = 50
-  identifier = "posts"
-  url = "/post/"
+[[menu.main]]
+name = "About"
+identifier = "about"
+weight = 2
+url = "/about"
 
-  [[menu.main]]
-  name = "Crypto"
-  identifier = "crypto"
-  url = "/crypto"
-  weight = 100
+[[menu.main]]
+name = "Posts"
+weight = 50
+identifier = "posts"
+url = "/posts/"
 
-	[[menu.main]]
-	name = "PGP"
-	parent = "crypto"
-	url = "/crypto/pgp/"
-	weight = 110
-
-	[[menu.main]]
-	name = "Threema"
-	parent = "crypto"
-	url = "/crypto/threema/"
-	weight = 120
+[[menu.main]]
+name = "Crypto"
+identifier = "crypto"
+url = "/crypto"
+weight = 100
 
   [[menu.main]]
-  name = "Imprint"
-  url = "/impressum/"
-  weight = 1000
+  name = "PGP"
+  parent = "crypto"
+  url = "/crypto/pgp/"
+  weight = 110
+
+  [[menu.main]]
+  name = "Threema"
+  parent = "crypto"
+  url = "/crypto/threema/"
+  weight = 120
+
+[[menu.footer]]
+name = "Imprint"
+url = "/impressum/"
+weight = 1000
