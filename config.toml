@@ -4,6 +4,10 @@ DefaultContentLanguage = 'en'
 title = "madonius' Blog"
 theme = 'anatole'
 
+[module]
+[[module.imports]]
+  path = 'github.com/lxndrblz/anatole'
+
 [params]
 profilePicture = "images/profile.jpg"
 
