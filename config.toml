@@ -30,6 +30,8 @@ enable=true
   [markup.goldmark]
 	[markup.goldmark.renderer]
 	  unsafe=true
+  [markup.tableOfContents]
+    endLevel = 5
 
 [related]
   includeNewer = true
