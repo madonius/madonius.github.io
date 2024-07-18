@@ -52,7 +52,7 @@ enable=true
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:contact ατ kampitakis.de"
+url = "mailto:contact ατ kampitakis…de"
 
 [[params.socialIcons]]
 icon = "fab fa-mastodon"
