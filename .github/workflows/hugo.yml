@@ -49,7 +49,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Get the Anatole theme
-        run: git clone https://github.com/lxndrblz/anatole.git themes
+        run: git clone https://github.com/lxndrblz/anatole.git themes/anatole
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
