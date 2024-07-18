@@ -53,7 +53,7 @@ I can only encourage you to try it and experiment.
 #### Heraklion
 
 ##### Breakfast
-- **Kritikos Fournos** offers a wide selection of "breakfast items".
+- **[Kritikos Fournos](https://kritikosfournosdaily.gr/en/our-points/)** offers a wide selection of "breakfast items".
   They are a chain and have multiple locations, it's hard to miss really
   and they also have a wide selection of beverages, sandwiches and the sorts.
 
